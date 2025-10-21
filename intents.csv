@@ -1,0 +1,8 @@
+intent_id,intent_name,examples,response_text,collect_fields,active
+001,saludo,"hola|buenos días|buenas tardes|buenas","Hola, soy el asistente. ¿En qué puedo ayudarle hoy?",,TRUE
+002,info_horario,"horario|a qué hora abren|horas de atención","Nuestro horario es de lunes a domingo de 9:00 a 21:00. ¿Desea reservar?",,TRUE
+003,ubicacion,"dónde están|dirección|ubicación","Estamos ubicados en Calle X #Y. ¿Desea que le envíe el mapa?",,TRUE
+004,reservar_mesa,"reservar mesa|quiero reservar|reserva","Perfecto. Para reservar necesito su nombre, teléfono, email y la fecha de la reserva. ¿Empezamos?","name|phone|email|date|request_type",TRUE
+005,promociones,"promociones|ofertas|menú","Actualmente tenemos la promoción X. ¿Desea ver el menú completo o reservar ahora?",,TRUE
+006,transferir_agente,"hablar con humano|agente|asistencia humana","Le voy a transferir con un agente. Por favor deje su nombre y teléfono para que le contacten.","name|phone",TRUE
+999,fallback,,"Lo siento, no entendí su solicitud. ¿Desea que le conecte con un agente humano?",,TRUE

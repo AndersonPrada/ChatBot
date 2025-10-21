@@ -1,0 +1,12 @@
+# Ignorar el archivo de entorno
+.env
+
+# Ignorar la carpeta de dependencias
+node_modules/
+
+# Ignorar archivos temporales del sistema
+.DS_Store
+
+# Ignorar carpetas de compilación (si usas React o similar)
+dist/
+build/
