@@ -9,4 +9,5 @@ node_modules/
 
 # Ignorar carpetas de compilación (si usas React o similar)
 dist/
-build/private/virtualassistant-mltn-5494f897fc39.json
+build/private/service-account.json
+
